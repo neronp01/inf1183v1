@@ -1,0 +1,75 @@
+<header [@fallIn]="state">
+  <div id="button">
+
+    <button (click)="logout()" class="basic-btn2">Quitter</button>
+
+
+
+    <clr-dropdown [clrMenuPosition]="'bottom-right'" [clrCloseMenuOnItemClick]="false">
+      <button clrDropdownToggle>
+        <clr-icon id="menu" shape="menu" class="is-invers" size="24"></clr-icon>
+        <clr-icon shape="caret down"></clr-icon>
+    </button>
+
+      <div class="dropdown-menu">
+
+
+        <a clrDropdownItem>
+          <div class="row">
+            <div class="col-sm-1">
+              <clr-icon class="is-highlight" shape="group" size="18"></clr-icon>
+            </div>
+            <div class="col-sm-2 offset-sm-1"><span>Équipe</span></div>
+          </div>
+        </a>
+
+        <a href="..." clrDropdownItem>
+          <div class="row">
+            <div id="test1" class="col-sm-1">
+              <clr-icon class="is-highlight" shape="app" size="18"></clr-icon>
+            </div>
+            <div id="test2" class="col-sm-2 offset-sm-1"><span> Projet</span></div>
+          </div>
+        </a>
+        <a (click)="jeux()" clrDropdownItem>
+          <div class="row">
+            <div class="col-sm-1">
+              <clr-icon class="is-highlight" shape="play" size="18"></clr-icon>
+            </div>
+            <div class="col-sm-2 offset-sm-1">
+              <span> Jouer</span></div>
+          </div>
+        </a>
+        <a href="..." clrDropdownItem>
+          <div class="row">
+            <div class="col-sm-1">
+              <clr-icon class="is-highlight" shape="pop-out" size="18"></clr-icon>
+            </div>
+            <div class="col-sm-2 offset-sm-1"><span> Room</span></div>
+          </div>
+        </a>
+
+
+        <div class="dropdown-divider"></div>
+        <label id="joueurEnLigne" class="dropdown-header">Joueurs en ligne</label>
+        <label id="joueurEnLigne" class="dropdown-header">
+        <clr-icon  class="is-success" shape="user" size="18"></clr-icon>
+        <span>Pascal Néron</span></label>
+      </div>
+
+    </clr-dropdown>
+  </div>
+  <div id="page" [@moveInLeft]="state">
+    <h2>{{ name.auth.displayName }}!</h2>
+  </div>
+</header>
+<br>
+<br>
+<br>
+<br>
+
+<div class="row">
+  <div class="col-sm-6 offset-sm-6" id="reine">
+   <!-- <img id="Dame" src="assets/images/main.png" class="cours" height="800" width="800" id="main"/>-->
+    <img id="Dame" src="assets/images/DameDePique.png" class="cours" height="800" width="800" />
+  </div>

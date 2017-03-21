@@ -1,0 +1,53 @@
+<header [@fallIn]="state">
+  <div id="button">
+
+    <button (click)="logout()" class="basic-btn2">Quitter</button>
+
+    <clr-dropdown [clrMenuPosition]="'bottom-right'" [clrCloseMenuOnItemClick]="false">
+      <button clrDropdownToggle>
+        <clr-icon id="menu" shape="menu" class="is-invers" size="24"></clr-icon>
+        <clr-icon shape="caret down"></clr-icon>
+    </button>
+
+      <div class="dropdown-menu">
+
+
+        <a (click)="membres()" clrDropdownItem>
+          <clr-icon class="is-highlight" shape="home" size="18"></clr-icon>
+          <span>Menue principale</span></a>
+
+        <a href="..." clrDropdownItem>
+          <clr-icon class="is-highlight" shape="download-cloud" size="18"></clr-icon>
+          <span> Charger une partie</span></a>
+        <a (click)="jeux()" clrDropdownItem>
+          <clr-icon class="is-highlight" shape="upload-cloud" size="18"></clr-icon>
+          <span> Sauver une partie</span></a>
+        <a href="..." clrDropdownItem>
+          <clr-icon class="is-highlight" shape="help" size="18"></clr-icon>
+          <span> Informations</span></a>
+
+
+        <div class="dropdown-divider"></div>
+        <label id="joueurEnLigne" class="dropdown-header">Joueurs en ligne</label>
+        <label id="joueurEnLigne" class="dropdown-header">
+        <clr-icon  class="is-success" shape="user" size="18"></clr-icon>
+        <span>Pascal Néron</span></label>
+      </div>
+
+    </clr-dropdown>
+  </div>
+
+</header>
+<div class="row">
+  <a class="col-xs-4 offset-xs-4">
+    <app-robot-deux></app-robot-deux>
+  </a>
+</div>
+<div class="main">
+    <app-robot-un></app-robot-un>
+   <!-- <div [carteJoeur]="pathJoueur"></div>-->
+    <app-robot-trois></app-robot-trois>
+</div>
+
+
+<app-joueur class="col-xs-12" (cartejoue)="joueCarte($event)"></app-joueur>

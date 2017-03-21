@@ -1,0 +1,10 @@
+<div *ngIf="affichage==='image'">
+<img id="carteRobotUn" src='/assets/cartes/asCoeur.png' />
+</div>
+
+<div *ngIf="affichage==='pointage'" id="point" class="main">
+<div id="dizaine" [@flyInOut]="state[1]"><span>{{dizaine}}</span></div>
+<div id="unite" [@flyInOut]="state[0]"><span>{{unite}}</span></div>
+
+</div>
+

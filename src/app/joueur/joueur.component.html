@@ -1,0 +1,14 @@
+<div >
+<a (click)="ItemScale(genre.value)">genre de la carte</a>
+<input #genre type="text" >
+</div>
+
+<div id="tableJeux">
+
+  <a *ngFor="let item of items| async; let i=index; trackBy:trackFbObject "[@flyInOut]="item.etat" (mouseover)="over(item.$key,item.etat)" (mouseleave)="out(item.$key,item.etat)" (click)="jouerCarte(item)" >
+
+    <app-cartes #carteBox [carte]='item' ></app-cartes>
+
+  </a>
+
+</div>

@@ -1,0 +1,82 @@
+{
+  "cartes": [
+    {
+      "genre": "trefle",
+      "valeur": "10",
+      "path": "assets/cartes/dixTrefle.png",
+      "etat": "void"
+    },
+    {
+      "genre": "coeur",
+      "valeur": "A",
+      "path": "assets/cartes/asCoeur.png",
+      "etat": "void"
+    },
+    {
+      "genre": "coeur",
+      "valeur": "2",
+      "path": "assets/cartes/deuxCoeur.png",
+      "etat": "void"
+    },
+    {
+      "genre": "pique",
+      "valeur": "A",
+      "path": "assets/cartes/asPique.png",
+      "etat": "void"
+    },
+    {
+      "genre": "carreau",
+      "valeur": "D",
+      "path": "assets/cartes/dameCarreau.png",
+      "etat": "void"
+    },
+    {
+      "genre": "trefle",
+      "valeur": "6",
+      "path": "assets/cartes/sixTrefle.png",
+      "etat": "void"
+    },
+    {
+      "genre": "coeur",
+      "valeur": "3",
+      "path": "assets/cartes/troisCoeur.png",
+      "etat": "void"
+    },
+    {
+      "genre": "pique",
+      "valeur": "R",
+      "path": "assets/cartes/roiPique.png",
+      "etat": "void"
+    },
+    {
+      "genre": "coeur",
+      "valeur": "10",
+      "path": "assets/cartes/dixCoeur.png",
+      "etat": "void"
+    },
+    {
+      "genre": "trefle",
+      "valeur": "dame",
+      "path": "assets/cartes/dameTrefle.png",
+      "etat": "void"
+    },
+    {
+      "genre": "pique",
+      "valeur": "4",
+      "path": "assets/cartes/quatrePique.png",
+      "etat": "void"
+    },
+    {
+      "genre": "carreau",
+      "valeur": "10",
+      "path": "assets/cartes/dixCarreau.png",
+      "etat": "void"
+    },
+    {
+      "genre": "carreau",
+      "valeur": "V",
+      "path": "assets/cartes/valetCarreau.png",
+      "etat": "void"
+    }
+  ]
+}

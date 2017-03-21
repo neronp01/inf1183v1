@@ -1,0 +1,23 @@
+
+<div class="row">
+  <a class="col-xs-1 offset-xs-5">
+    <img id="carteRobotDeux" src='/assets/cartes/asCoeur.png' />
+  </a>
+</div>
+<br><br>
+<div class="row">
+  <a class="col-xs-1 offset-xs-3">
+    <img id="carteRobotUn" src='/assets/cartes/asCoeur.png' />
+  </a>
+  <a class="col-xs-1 offset-xs-3">
+    <img id="carteRobotTrois" src='/assets/cartes/asCoeur.png' />
+  </a>
+</div>
+<br><br>
+<div *ngIf="carteJoeur !== ''">
+  <div class="row">
+    <a class="col-xs-1 offset-xs-5">
+      <img id="carteJoeur" src={{carteJoeur}}/>
+    </a>
+  </div>
+</div>

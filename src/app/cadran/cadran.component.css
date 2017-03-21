@@ -1,0 +1,32 @@
+img{
+ width:60px;
+ height:61px;
+}
+
+.main {
+position:relative;
+top:-100px;
+height:300px;
+width:200px;
+margin-top:15px;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+}
+
+
+
+#point{
+
+}
+span{color:#ffffff;
+position:relative;
+top:100px;
+font-size:270%;
+-webkit-flex:1;
+-ms-flex:1;
+flex:1;
+}
+
+#dizaine{
+margin-left:6px;
+}

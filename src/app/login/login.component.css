@@ -1,0 +1,45 @@
+#lock {
+    width:40%;
+    margin: 1.5em auto 1em auto;
+    display:block;
+    max-width:100px;
+    max-height:100px
+}
+
+#fb {
+    background:#3B5998 url('assets/images/fb.png') no-repeat 2px 6px;
+    background-size: 47px;
+    color:#fff;
+}
+
+#google {
+    border: 1px solid #95989A;
+    background: #fff  url('assets/images/google.png') no-repeat 15px;
+    background-size: 35px;
+}
+
+#email {
+    background: #ECECEC  url('assets/images/email.png') no-repeat 15px;
+    background-size: 50px;
+}
+
+@media (max-width: 600px) {
+    #page {
+        padding:1em;
+    }
+    #toolbar {
+        width:90%;
+        margin-left: -45%;
+    }
+    #fb {
+        background:#3B5998;
+    }
+
+    #google {
+        background: #fff;
+    }
+
+    #email {
+        background: #ECECEC;
+    }
+}

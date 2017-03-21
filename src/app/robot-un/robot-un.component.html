@@ -1,0 +1,13 @@
+<div id='robotUn'[@enter]="state">
+<div [@flyInOut]="state" id="tete">
+<img id="imTete"  src="/assets/images/teteRobot.png"/>
+<app-expression></app-expression>
+</div>
+<br>
+<br>
+
+<app-cadran></app-cadran>
+<img id="braGauche"  src="/assets/images/braGauche.png"/>
+<img id="corp"  src="/assets/images/corps.png"/>
+<img id="braDroite" [@rotate]="state" src="/assets/images/braDroite.png"/>
+</div>
